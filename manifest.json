@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Checker",
+  "description": "List Checker for websites",
+  "version": "1.0",
+  "icons": {
+    "128": "128.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage"]
+}
